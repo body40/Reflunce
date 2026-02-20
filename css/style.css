@@ -4711,3 +4711,73 @@ h6 {
     position: relative;
     z-index: 2;
 }
+.contact_pro {
+    background: #0f172a;
+    padding: 80px 0;
+}
+
+.contact-title {
+    color: white;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+.contact_card {
+    background: linear-gradient(145deg, #111827, #0b1220);
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    color: white;
+    transition: 0.35s;
+    box-shadow: 0 10px 40px rgba(255, 239, 239, 0.4);
+    position: relative;
+    overflow: hidden;
+}
+
+.contact_card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 20px 60px rgba(203, 184, 184, 0.6);
+}
+
+.contact_card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.contact_card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.contact_card p {
+    color: #94a3b8;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.buttons a {
+    flex: 1;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 14px;
+    background: #cad2de;
+    color: white;
+    transition: 0.3s;
+    border: 1px solid rgba(242, 0, 0, 0.08);
+}
+
+.buttons a:hover {
+    background: #2563eb;
+    color: white;
+    box-shadow: 0 0 20px rgba(37,99,235,0.6);
+}
